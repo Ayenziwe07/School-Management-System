@@ -1,0 +1,19 @@
+pythonnet
+pytest-asyncio
+pytest
+fastapi
+pydantic
+sqlalchemy
+uvicorn
+aiofiles
+httpx
+python-multipart
+python-dotenv
+fastapi-users[sqlalchemy]
+
+# Documentation
+mkdocs
+mkdocstrings
+mkdocs-material
+swagger-ui
+mkdocs-swagger-ui-tag

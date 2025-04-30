@@ -1,0 +1,31 @@
+# Config for the documentation
+# https://www.mkdocs.org/user-guide/configuration/
+site_name: eNtweni Accounting
+nav:
+  - Overview: index.md
+  - Quickstart: quickstart.md
+  - Authentication: authentication.md
+  - Endpoints:
+      - Customers: endpoints/customers.md
+      - Invoices: endpoints/invoices.md
+      - Payments: endpoints/payments.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+  palette:
+    primary: indigo
+
+# plugins:
+#   - search
+#   - mkdocstrings  # For Python code reference
+#   - swagger-ui:   # For interactive API docs
+#       spec_url: schemas/accounting_api.yaml
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences

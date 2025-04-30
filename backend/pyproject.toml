@@ -1,0 +1,4 @@
+[project]
+name = "entweni"
+version = "0.1.0"
+dependencies = ["pythonnet", "fastapi", "uvicorn", "pydantic"]
